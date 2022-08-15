@@ -1,0 +1,18 @@
+{
+  "name": "dig-esbuild-interop",
+  "version": "0.0.0",
+  "author": {
+    "name": "zhiyang"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/main.js",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "prettier": "^2.5.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4"
+  }
+}
